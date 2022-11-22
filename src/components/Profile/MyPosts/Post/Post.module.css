@@ -1,0 +1,11 @@
+.item {
+	display: flex;
+	color: aqua;
+	align-items: center;
+}
+.item img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	box-shadow: 0.07em -0.05em 0.4em black;
+}
