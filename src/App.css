@@ -52,3 +52,9 @@
 	justify-self: center;
 	margin: auto 0;
 }
+
+.app-wrapper-content {
+	font-size: 2rem;
+	grid-area: c;
+	background-color: rgba(65, 38, 38, 0.842);
+}
