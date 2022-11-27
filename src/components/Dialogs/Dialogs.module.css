@@ -1,0 +1,19 @@
+.dialogs {
+	display: grid;
+	grid-template-columns: 2fr 10fr;
+	text-decoration: none;
+}
+.dialogsItem {
+	padding: 10px;
+}
+
+.dialog {
+	color: red;
+}
+.dialogsItem.active {
+	color: gold;
+}
+
+.massages {
+	color: blue;
+}

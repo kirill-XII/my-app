@@ -2,10 +2,12 @@
 	grid-area: n;
 	background-color: rgb(255, 115, 0);
 	font-size: 2rem;
+	padding: 20px;
+	text-decoration: none;
 }
 .item {
 	color: white;
 }
-.item.active {
-	color: black;
+.activeLink {
+	color: gold;
 }
