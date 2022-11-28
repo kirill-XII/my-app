@@ -15,6 +15,17 @@ const Massage = props => {
 }
 
 const Dialogs = props => {
-	return <div className={s.item}>Dialogs</div>
+	return (
+		<div className={s.dialogs}>
+			<div className={s.dialogsItem}>
+				<DialogItem name='Bob' id='1' />
+				<DialogItem name='Luka' id='2' />
+				<DialogItem name='Shtrom' id='3' />
+				<DialogItem name='Linda' id='4' />
+				<DialogItem name='Lizabet' id='5' />
+				<DialogItem name='Vasya' id='6' />
+			</div>
+		</div>
+	)
 }
 export default Dialogs

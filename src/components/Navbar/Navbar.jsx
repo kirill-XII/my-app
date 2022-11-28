@@ -20,13 +20,13 @@ const Navbar = () => {
 				</NavLink>
 			</div>
 			<div>
-				<NavLink className={s.item}>News</NavLink>
+				<NavLink>News</NavLink>
 			</div>
 			<div>
-				<NavLink className={s.item}>Music</NavLink>
+				<NavLink>Music</NavLink>
 			</div>
 			<div>
-				<NavLink className={s.item}>Settings</NavLink>
+				<NavLink>Settings</NavLink>
 			</div>
 		</nav>
 	)
