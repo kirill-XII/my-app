@@ -10,8 +10,8 @@ const DialogItem = props => {
 	)
 }
 
-const Massage = props => {
-	return <Massage>{props.massage}</Massage>
+const Message = props => {
+	return <div className={s.dialog}>{props.massage}</div>
 }
 
 const Dialogs = props => {
@@ -24,6 +24,11 @@ const Dialogs = props => {
 				<DialogItem name='Linda' id='4' />
 				<DialogItem name='Lizabet' id='5' />
 				<DialogItem name='Vasya' id='6' />
+			</div>
+			<div className={s.massages}>
+				<Message massage='Yo real' />
+				<Message massage='How are you?' />
+				<Message massage='Stop' />
 			</div>
 		</div>
 	)
