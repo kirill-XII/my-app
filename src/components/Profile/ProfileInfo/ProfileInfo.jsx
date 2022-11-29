@@ -9,7 +9,7 @@ const ProfileInfo = () => {
 					alt=''
 				/>
 			</div>
-			<div className={s.item}>ava + description</div>
+			<div className={s.descriptionBlock}>ava + description</div>
 		</div>
 	)
 }
