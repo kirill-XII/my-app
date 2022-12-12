@@ -1,4 +1,3 @@
-import logo from './logo.svg'
 import './App.css'
 import Header from './components/Header/Header'
 import Navbar from './components/Navbar/Navbar'
@@ -15,7 +14,12 @@ const App = props => {
 					<Routes>
 						<Route
 							path='/profile'
-							element={<Profile state={props.state.profilePage} />}
+							element={
+								<Profile
+									state={props.state.profilePage}
+									addPost={props.addPost}
+								/>
+							}
 						/>
 						<Route
 							path='/dialogs/*'
